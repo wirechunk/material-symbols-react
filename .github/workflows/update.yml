@@ -56,7 +56,7 @@ jobs:
           git commit -m 'Auto Update' || [ "$force" = "1" ] || exit 1
 
           # Bump Version
-          npm run version "$bump"
+          npm run version -- "$bump"
 
           # Push
           if [ "$dry" = "1" ]; then

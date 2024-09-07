@@ -25,13 +25,11 @@ The package `@material-symbols/svg-600` includes only SVGs with weight 600. To u
 
 | Package                                                                                | Weight |
 | :------------------------------------------------------------------------------------- | :----- |
-| [`@material-symbols/svg-100`](https://www.npmjs.com/package/@material-symbols/svg-100) | 100    |
-| [`@material-symbols/svg-200`](https://www.npmjs.com/package/@material-symbols/svg-200) | 200    |
-| [`@material-symbols/svg-300`](https://www.npmjs.com/package/@material-symbols/svg-300) | 300    |
-| [`@material-symbols/svg-400`](https://www.npmjs.com/package/@material-symbols/svg-400) | 400    |
-| [`@material-symbols/svg-500`](https://www.npmjs.com/package/@material-symbols/svg-500) | 500    |
-| [`@material-symbols/svg-600`](https://www.npmjs.com/package/@material-symbols/svg-600) | 600    |
-| [`@material-symbols/svg-700`](https://www.npmjs.com/package/@material-symbols/svg-700) | 700    |
+| [`@wirechunk/material-symbols-react-200`](https://www.npmjs.com/package/@wirechunk/material-symbols-react-200) | 200    |
+| [`@wirechunk/material-symbols-react-300`](https://www.npmjs.com/package/@wirechunk/material-symbols-react-300) | 300    |
+| [`@wirechunk/material-symbols-react-400`](https://www.npmjs.com/package/@wirechunk/material-symbols-react-400) | 400    |
+| [`@wirechunk/material-symbols-react-500`](https://www.npmjs.com/package/@wirechunk/material-symbols-react-500) | 500    |
+| [`@wirechunk/material-symbols-react-600`](https://www.npmjs.com/package/@wirechunk/material-symbols-react-600) | 600    |
 
 </details>
 

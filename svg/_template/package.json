@@ -1,18 +1,18 @@
 {
   "name": "@material-symbols/svg-{{weight}}",
   "version": "{{version}}",
-  "description": "Latest optimized SVGs with weight {{weight}} for Material Symbols.",
+  "description": "The latest Material Symbols with weight {{weight}} as React components rendering SVGs",
   "files": [
-    "{outlined,rounded,sharp}/*.svg"
+    "**/*.tsx"
   ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marella/material-symbols.git",
+    "url": "git+https://github.com/wirechunk/material-symbols-react.git",
     "directory": "svg/{{weight}}"
   },
   "bugs": {
-    "url": "https://github.com/marella/material-symbols/issues"
+    "url": "https://github.com/wirechunk/material-symbols-react/issues"
   },
   "homepage": "https://marella.github.io/material-symbols/demo/",
   "keywords": [
@@ -26,6 +26,10 @@
     "svg"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
