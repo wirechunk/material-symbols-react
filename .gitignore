@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,yarn,sass,jekyll,linux,macos,windows,sublimetext,vim,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,yarn,sass,jekyll,linux,macos,windows,sublimetext,vim,visualstudiocode
 
+.idea
+
 ### Jekyll ###
 _site/
 .sass-cache/
