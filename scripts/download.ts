@@ -1,4 +1,4 @@
-import cp from 'node:child_process';
+import {spawn} from 'node:child_process';
 
 const weights = [200, 300, 400, 500, 600];
 
@@ -6,8 +6,14 @@ const opticalSizes = [20, 24, 48];
 
 for (const weight of weights) {
   for (const opticalSize of opticalSizes) {
-    // await cp.exec('npx');
-    const spawn  = cp.spawn('npx', [
+    const mkdir = spawn('mkdir', ['-p', `svg/${weight}/${opticalSize}`], {
+      stdio: 'inherit',
+    });
+    const mkdirPromise = Promise.withResolvers();
+    mkdir.on('exit', mkdirPromise.resolve);
+    await mkdirPromise.promise;
+
+    const npx  = spawn('npx', [
       '@material-design-icons/scripts',
       'download',
       'svg',
@@ -22,7 +28,7 @@ for (const weight of weights) {
       stdio: 'inherit',
     });
     const {resolve, promise} = Promise.withResolvers();
-    spawn.on('exit', resolve);
+    npx.on('exit', resolve);
     await promise;
   }
 }

@@ -1,15 +1,13 @@
 {
+  "description": "The latest Material Symbols as React components rendering SVGs",
   "private": true,
   "workspaces": [
-    "material-symbols",
     "svg",
-    "svg/100",
     "svg/200",
     "svg/300",
     "svg/400",
     "svg/500",
     "svg/600",
-    "svg/700",
     "metadata"
   ],
   "type": "module",
@@ -27,7 +25,7 @@
     "generate:types": "npx @material-design-icons/scripts generate types --symbols --in material-symbols",
     "copy:types": "set -eu; for w in 100 200 300 400 500 600 700; do cp material-symbols/index.d.ts font/$w; done",
     "build": "npm run build:svg",
-    "build:svg": "npm run build -w svg --if-present",
+    "build:svg": "npm run build -w svg",
     "version": "npm version -w material-symbols -w svg/100 -w svg/200 -w svg/300 -w svg/400 -w svg/500 -w svg/600 -w svg/700 -w metadata",
     "postversion": "npm install && VERSION=$(node -p \"require('./material-symbols/package.json').version\") npm run git-commit-tag",
     "git-commit-tag": "git commit -am $VERSION && git tag -a v$VERSION -m $VERSION",

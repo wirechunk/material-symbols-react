@@ -11,7 +11,6 @@ const addViewBox = require('svgo-add-viewbox');
 module.exports = {
   multipass: true,
   plugins: extendDefaultPlugins([
-    'removeRasterImages',
     'removeScriptElement',
     'removeStyleElement',
     {
