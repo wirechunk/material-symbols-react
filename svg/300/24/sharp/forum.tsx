@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgForum = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M249.23-275.39v-95.38h507.69V-720h95.39v586.15L710.77-275.39H249.23Zm-141.54-33.84V-860h569.23v409.23H249.23L107.69-309.23Zm60-144.92 56.62-56.62h392.61V-800H167.69v345.85Zm0-68.93V-800v276.92Z" />
+  </svg>
+);

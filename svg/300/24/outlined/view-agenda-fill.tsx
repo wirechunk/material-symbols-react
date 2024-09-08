@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgViewAgendaFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M212.31-527.69q-30.31 0-51.31-21-21-21-21-51.31v-135.38q0-30.31 21-51.31 21-21 51.31-21h535.38q30.31 0 51.31 21 21 21 21 51.31V-600q0 30.31-21 51.31-21 21-51.31 21H212.31Zm0 375.38q-30.31 0-51.31-21-21-21-21-51.31V-360q0-30.31 21-51.31 21-21 51.31-21h535.38q30.31 0 51.31 21 21 21 21 51.31v135.38q0 30.31-21 51.31-21 21-51.31 21H212.31Z" />
+  </svg>
+);

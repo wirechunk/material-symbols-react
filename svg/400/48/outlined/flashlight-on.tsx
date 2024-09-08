@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgFlashlightOn = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M330-80v-443l-90-132v-225h480v225l-90 132v443H330Zm150.18-246Q459-326 444-340.82q-15-14.83-15-36Q429-398 443.82-413q14.83-15 36-15Q501-428 516-413.18q15 14.83 15 36Q531-356 516.18-341q-14.83 15-36 15ZM300-764h360v-56H300v56Zm360 60H300v35l90 131v398h180v-398l90-131v-35ZM480-480Z" />
+  </svg>
+);

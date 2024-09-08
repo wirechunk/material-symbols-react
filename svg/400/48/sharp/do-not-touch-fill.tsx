@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgDoNotTouchFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M840-206 566-480h48v-400h60v400h106v-320h60v594ZM507-539l-60-59v-322h60v381ZM340-705l-60-60v-75h60v135Zm4 665L54-468l62-53 164 124v-197L26-848l43-43L916-44 873-1l-39-39H344Z" />
+  </svg>
+);

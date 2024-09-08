@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgLocationCity = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M118-70v-556h192v-54.48l170-170 170 170V-482h192v412H118Zm98-98h72v-72h-72v72Zm0-144h72v-72h-72v72Zm0-144h72v-72h-72v72Zm228 288h72v-72h-72v72Zm0-144h72v-72h-72v72Zm0-144h72v-72h-72v72Zm0-144h72v-72h-72v72Zm228 432h72v-72h-72v72Zm0-144h72v-72h-72v72Z" />
+  </svg>
+);

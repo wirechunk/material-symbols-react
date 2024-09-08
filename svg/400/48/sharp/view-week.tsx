@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgViewWeek = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M140-220h187v-520H140v520Zm247 0h186v-520H387v520Zm246 0h187v-520H633v520Zm247 60H80v-640h800v640Z" />
+  </svg>
+);

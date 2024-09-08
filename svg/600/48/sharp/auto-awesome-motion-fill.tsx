@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgAutoAwesomeMotionFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M307-54v-599h599v599H307ZM180.78-179.78v-600h599.44V-700H260v520.22h-79.22ZM54-299.78V-906h606.22v79.78H133.78v526.44H54Z" />
+  </svg>
+);

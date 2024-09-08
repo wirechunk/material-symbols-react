@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgFlightLand = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M144-144v-72h672v72H144Zm579-191L144-508v-275l92 27 46 139 131 40-30-335 115 34 116 361 151 44q23 7 37 26.5t14 42.5q0 35-29 57.5T723-335Z" />
+  </svg>
+);

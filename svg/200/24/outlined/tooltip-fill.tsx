@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgTooltipFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m480-120-91.62-140H184.62q-26.66 0-45.64-18.98T120-324.62v-450.76q0-26.66 18.98-45.64T184.62-840h590.76q26.66 0 45.64 18.98T840-775.38v450.76q0 26.66-18.98 45.64T775.38-260H571.62L480-120Z" />
+  </svg>
+);

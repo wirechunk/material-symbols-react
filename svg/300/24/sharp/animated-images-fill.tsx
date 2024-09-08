@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgAnimatedImagesFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m490-435 215.77-145L490-725v290ZM165.69-96.92 95.54-654.69l115.23-12.08v456h522l4.23 43-571.31 70.85Zm125.08-193.85V-860H860v569.23H290.77Z" />
+  </svg>
+);

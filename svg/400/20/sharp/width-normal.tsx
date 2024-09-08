@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgWidthNormal = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M96-192v-576h768v576H96Zm72-72h168v-432H168v432Zm240 0h144v-432H408v432Zm216 0h168v-432H624v432ZM408-696v432-432Z" />
+  </svg>
+);

@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgStat3 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m291-93-51-51 240-240 240 240-51 51-189-189L291-93Zm0-237-51-51 240-240 240 240-51 51-189-189-189 189Zm0-243-51-51 240-240 240 240-51 51-189-189-189 189Z" />
+  </svg>
+);

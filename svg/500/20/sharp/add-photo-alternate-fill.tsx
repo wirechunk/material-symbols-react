@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgAddPhotoAlternateFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M135.87-135.87v-688.26h429.56q-17.95 23.72-28.05 52.82-10.1 29.09-10.1 59.46 0 76.91 54.03 130.74 54.03 53.83 130.69 53.83 30.26 0 59.34-10.1 29.07-10.1 52.79-28.05v429.56H135.87ZM264-288h432L552-480 444-336l-72-96-108 144Zm409.91-311.28v-74.63h-74.63v-75.59h74.63v-74.63h75.59v74.63h74.63v75.59H749.5v74.63h-75.59Z" />
+  </svg>
+);

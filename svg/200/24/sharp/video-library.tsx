@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgVideoLibrary = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M460-416.92 683.08-560 460-703.08v286.16ZM260-280v-560h560v560H260Zm40-40h480v-480H300v480ZM140-160v-535.38h40V-200h495.38v40H140Zm160-640v480-480Z" />
+  </svg>
+);

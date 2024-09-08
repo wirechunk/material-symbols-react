@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgCalculateFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M323.39-243.39h60v-80h80v-60h-80v-80h-60v80h-80v60h80v80Zm193.22-30h200v-60h-200v60Zm0-100h200v-60h-200v60ZM253.39-592h200v-60h-200v60ZM100.78-100.78v-758.44h758.44v758.44H100.78Zm459.83-417.83 56-56 56 56 42-42-56-58 56-56-42-42-56 56-56-56-42 42 56 56-56 58 42 42Z" />
+  </svg>
+);

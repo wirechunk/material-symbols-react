@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgLabelOffFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M725.84-301.15 249.31-780h384l227.3 300-134.77 178.85ZM854.31 5.69 665.77-180H100v-568.61L-2.85-851.46l33-32L886.92-26.31l-32.61 32Z" />
+  </svg>
+);

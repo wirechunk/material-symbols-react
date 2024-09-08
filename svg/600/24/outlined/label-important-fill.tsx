@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgLabelImportantFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M60.78-140.78 309.26-480 60.78-819.22h536.39q25.79 0 48.16 11.33 22.37 11.32 37.32 31.98L899.22-480 682.09-184.09q-14.96 20.66-37.61 31.98-22.65 11.33-47.87 11.33H60.78Z" />
+  </svg>
+);

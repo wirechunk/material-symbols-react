@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgDashboard2Fill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M631.69-232v-204.31H824V-232H631.69Zm-216-291.69V-728H824v204.31H415.69ZM136-232v-204.31h408.31V-232H136Zm0-291.69V-728h192.31v204.31H136Z" />
+  </svg>
+);

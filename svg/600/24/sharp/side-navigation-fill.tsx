@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgSideNavigationFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M100.78-100.78v-758.44h758.44v758.44H100.78Zm379.22-106h273.22v-546.44H480v546.44Z" />
+  </svg>
+);

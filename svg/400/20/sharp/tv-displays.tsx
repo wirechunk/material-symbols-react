@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgTvDisplays = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M96-240v-624h624v72H168v552H96ZM432-96v-96H240v-528h672v528H720v96H432ZM312-264h528v-384H312v384Zm264-192Z" />
+  </svg>
+);
