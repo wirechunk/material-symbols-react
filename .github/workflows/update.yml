@@ -59,8 +59,7 @@ jobs:
           # Use 'git add --ignore-removal .' to keep deleted SVGs
           git add --all
 
-          git commit -m 'Auto Update' || [ "$force" = "1" ] || exit 1
-          git commit -am $VERSION
+          git commit -m "Auto Update $VERSION" || [ "$force" = "1" ] || exit 1
 
           git tag -a v$VERSION -m v$VERSION
 
