@@ -59,6 +59,8 @@ jobs:
           # Use 'git add --ignore-removal .' to keep deleted SVGs
           git add --all
 
+          VERSION=$(node -p "require('./package.json').version")
+
           git commit -m "Auto Update $VERSION" || [ "$force" = "1" ] || exit 1
 
           git tag -a v$VERSION -m v$VERSION
@@ -67,3 +69,4 @@ jobs:
             exit 0
           fi
           git push
+          git push origin tag v$VERSION
