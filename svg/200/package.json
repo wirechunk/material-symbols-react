@@ -1,0 +1,35 @@
+{
+  "name": "@wirechunk/material-symbols-react-200",
+  "version": "0.0.1",
+  "description": "The latest Material Symbols with weight 200 as React components rendering SVGs",
+  "files": [
+    "**/*.tsx"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirechunk/material-symbols-react.git",
+    "directory": "svg/200"
+  },
+  "bugs": {
+    "url": "https://github.com/wirechunk/material-symbols-react/issues"
+  },
+  "homepage": "https://marella.github.io/material-symbols/demo/",
+  "keywords": [
+    "material-symbols",
+    "material-icons",
+    "material-design-icons",
+    "material-design",
+    "material",
+    "symbols",
+    "icons",
+    "svg"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
