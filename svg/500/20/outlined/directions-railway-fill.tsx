@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgDirectionsRailwayFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M255.87-133v-28.3l50-50q-53.24-12.35-87.62-55.7t-34.38-98.02v-356.41q0-76.07 68.15-114.1 68.15-38.04 227.98-38.04 159.83 0 227.98 38.04 68.15 38.03 68.15 114.1v356.41q0 54.67-34.38 98.02-34.38 43.35-87.62 55.7l50 50v28.3H255.87Zm11-417.57h426.26v-120H266.87v120ZM480-336q20 0 34-14t14-34q0-20-14-34t-34-14q-20 0-34 14t-14 34q0 20 14 34t34 14Z" />
+  </svg>
+);

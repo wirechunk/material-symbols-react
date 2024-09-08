@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgScreenshotKeyboardFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M480-480Zm0 150q63 0 106.5-43.5T630-480q0-63-43.5-106.5T480-630q-63 0-106.5 43.5T330-480q0 63 43.5 106.5T480-330ZM80-160v-640h800v640H80Z" />
+  </svg>
+);

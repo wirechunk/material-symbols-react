@@ -1,8 +1,5 @@
-import {spawn} from 'node:child_process';
-
-const weights = [200, 300, 400, 500, 600];
-
-const opticalSizes = [20, 24, 48];
+import { spawn } from 'node:child_process';
+import { opticalSizes, weights } from './constants.ts';
 
 for (const weight of weights) {
   for (const opticalSize of opticalSizes) {
@@ -13,7 +10,7 @@ for (const weight of weights) {
     mkdir.on('exit', mkdirPromise.resolve);
     await mkdirPromise.promise;
 
-    const npx  = spawn('npx', [
+    const npx = spawn('npx', [
       '@material-design-icons/scripts',
       'download',
       'svg',
@@ -27,7 +24,7 @@ for (const weight of weights) {
     ], {
       stdio: 'inherit',
     });
-    const {resolve, promise} = Promise.withResolvers();
+    const { resolve, promise } = Promise.withResolvers();
     npx.on('exit', resolve);
     await promise;
   }

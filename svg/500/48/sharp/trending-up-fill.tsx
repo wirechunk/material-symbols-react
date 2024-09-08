@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgTrendingUpFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m122.76-234.74-48.74-48.74 298.94-297.69 167 167 231.91-232.4H647.02v-68.36h239.2v239.19h-67.37v-121.09L538.96-316.7l-167-167-249.2 248.96Z" />
+  </svg>
+);

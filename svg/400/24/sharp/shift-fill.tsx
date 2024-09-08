@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgShiftFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M320-120v-320H120l360-440 360 440H640v320H320Z" />
+  </svg>
+);

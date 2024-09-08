@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgNotificationMultipleFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M50-80v-594h60v534h565v60H50Zm120-120v-494l370-227 64 33-365 227 301 199 323-213 47 23v452H170Zm362-355L416-671l43-43 73 73 184-184 43 43-227 227Z" />
+  </svg>
+);

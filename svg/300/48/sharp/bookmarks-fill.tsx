@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgBookmarksFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M180-100v-603.69h445.77V-100L402.88-212.46 180-100Zm554.61-150.54v-564.69H298.62v-45.38H780v610.07h-45.39Z" />
+  </svg>
+);

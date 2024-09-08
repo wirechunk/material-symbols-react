@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgBackspace = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M443.38-338.31 553.08-448l109.69 109.69 33-32.61L585.08-480l109.07-109.08-32.61-32.61L553.08-512l-109.7-109.69-32.61 32.61L521.08-480 410.77-370.92l32.61 32.61ZM327.31-180 100-480l226.69-300h533.92v600h-533.3ZM156.92-480 350-225.39h465.23v-509.22H350L156.92-480Zm329.16 0Z" />
+  </svg>
+);

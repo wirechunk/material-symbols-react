@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgSplitscreenLandscape = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M510-280h250v-400H510v400Zm-310 0h250v-400H200v400ZM80-160v-640h800v640H80Zm740-60v-520H140v520h680ZM140-740v520-520Z" />
+  </svg>
+);

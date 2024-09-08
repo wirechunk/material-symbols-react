@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgTimer5Shutter = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M320-200v-120h240v-100H320v-340h360v120H440v100h120q50 0 85 35t35 85v100q0 50-35 85t-85 35H320Z" />
+  </svg>
+);

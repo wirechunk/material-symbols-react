@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgBusinessMessagesFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M281.96-172.78q-40.93 0-69.4-28.22-28.47-28.21-28.47-69.22v-359.43L28.78-787.22h708.79q40.7 0 69.18 28.64 28.47 28.63 28.47 68.84v419.81q0 41.02-28.62 69.08-28.63 28.07-68.82 28.07H281.96Zm228.41-119.87 50.03-50-45.24-47h159.1v-72.57H344.48l165.89 169.57ZM344.48-497.78h329.78L507.37-668.35l-50.03 51 46.24 47h-159.1v72.57Z" />
+  </svg>
+);

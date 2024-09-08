@@ -52,14 +52,19 @@ jobs:
 
           # Update
           npm run update
-          git add --all # Use 'git add --ignore-removal .' to keep deleted SVGs
+          npm version "$bump"
+          npm run init-pkgs
+          npm i
+
+          # Use 'git add --ignore-removal .' to keep deleted SVGs
+          git add --all
+
           git commit -m 'Auto Update' || [ "$force" = "1" ] || exit 1
+          git commit -am $VERSION
 
-          # Bump Version
-          npm run version -- "$bump"
+          git tag -a v$VERSION -m v$VERSION
 
-          # Push
           if [ "$dry" = "1" ]; then
             exit 0
           fi
-          git push --follow-tags
+          git push

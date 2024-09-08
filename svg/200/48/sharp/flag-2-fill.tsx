@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgFlag2Fill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M240-120v-680h560l-88.69 167.85L800-464.31H270.77V-120H240Z" />
+  </svg>
+);

@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgWatchButtonPressFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M744-480.38V-808h52v327.62h-52ZM307.23-116l-43.38-179.69q-45.16-28.77-72.5-76.73Q164-420.38 164-480t27.85-107.58q27.84-47.96 74-76.73L307.23-844h153.54l41.38 179.69q46.16 28.77 74 76.73Q604-539.62 604-480t-27.35 107.58q-27.34 47.96-72.5 76.73L460.77-116H307.23Zm76.97-196q69.8 0 118.8-49.2t49-119q0-69.8-49.2-118.8t-119-49Q314-648 265-598.8t-49 119q0 69.8 49.2 118.8t119 49Z" />
+  </svg>
+);

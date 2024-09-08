@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgNetworkCell = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m76.78-76.78 806.44-806.44v806.44H76.78Zm586.18-98h122.26v-472.26L662.96-524.78v350Z" />
+  </svg>
+);

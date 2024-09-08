@@ -1,0 +1,15 @@
+import type { SVGProps } from "react";
+export const SvgSubdirectoryArrowRightFill = (
+  props: SVGProps<SVGSVGElement>
+) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m560-120-57-57 144-143H200v-480h80v400h367L503-544l56-57 241 241-240 240Z" />
+  </svg>
+);

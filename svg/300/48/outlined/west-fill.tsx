@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgWestFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M366.92-213.46 100-480.38l266.92-266.93 31.62 31.62-213 212.61h674.84v45.39H185.92l213 212.61-32 31.62Z" />
+  </svg>
+);

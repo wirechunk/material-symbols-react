@@ -1,18 +1,11 @@
 {
+  "name": "@wirechunk/material-symbols-react",
   "description": "The latest Material Symbols as React components rendering SVGs",
   "private": true,
-  "workspaces": [
-    "svg",
-    "svg/200",
-    "svg/300",
-    "svg/400",
-    "svg/500",
-    "svg/600",
-    "metadata"
-  ],
   "type": "module",
+  "version": "0.0.0",
   "scripts": {
-    "init": "npm run init -w svg",
+    "init-pkgs": "node --experimental-transform-types ./scripts/init.ts",
     "check": "npm run download:metadata -- --status --dry-run",
     "update": "npm run clean && npm run download && npm run generate",
     "clean": "npm run clean:svg",
@@ -20,11 +13,7 @@
     "download": "npm run download:svg && npm run download:metadata",
     "download:svg": "node --experimental-transform-types ./scripts/download.ts",
     "download:metadata": "npx @material-design-icons/scripts download metadata --symbols --to metadata",
-    "generate": "npx @svgr/cli -- svg",
-    "version": "npm version -w svg/200 -w svg/300 -w svg/400 -w svg/500 -w svg/600",
-    "postversion": "npm install && VERSION=$(node -p \"require('./svg/package.json').version\") npm run git-commit-tag",
-    "git-commit-tag": "git commit -am $VERSION && git tag -a v$VERSION -m $VERSION",
-    "publish": "npm publish -w svg/200 -w svg/300 -w svg/400 -w svg/500 -w svg/600"
+    "generate": "node --experimental-transform-types ./scripts/generate.ts"
   },
   "devDependencies": {
     "@material-design-icons/scripts": "0.5.2",

@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgAirplanemodeInactive = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m824-321.08-149.23-59.84-244.46-246v-147.39q0-20.77 14.46-35.23Q459.23-824 480-824q20.77 0 35.23 14.46 14.46 14.46 14.46 35.23v170.54L824-399.54v78.46ZM480-186.31 316.46-136v-57.54l113.85-80.15v-166.23L136-321.08v-78.46l227.85-157-230-230 23.3-23.31 647.23 648.23-23.3 23.31-251.39-251.38v116l113.08 80.15V-136L480-186.31Z" />
+  </svg>
+);

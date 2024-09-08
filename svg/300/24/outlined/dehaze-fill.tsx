@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgDehazeFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M140-680v-60h680v60H140Zm0 460v-60h680v60H140Zm0-230v-60h680v60H140Z" />
+  </svg>
+);

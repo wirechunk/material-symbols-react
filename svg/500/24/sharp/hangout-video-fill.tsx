@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgHangoutVideoFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320ZM71.87-151.87v-656.26h816.26v656.26H71.87Z" />
+  </svg>
+);

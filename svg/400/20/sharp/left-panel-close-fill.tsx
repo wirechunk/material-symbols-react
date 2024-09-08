@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgLeftPanelCloseFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M648-324v-312L480-480l168 156ZM408-216h336v-528H408v528Zm-264 72v-672h672v672H144Z" />
+  </svg>
+);

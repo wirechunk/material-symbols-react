@@ -1,5 +1,4 @@
 export default {
-  outDir: 'dist',
   jsxRuntime: 'automatic',
   index: false,
   svgo: false,
@@ -9,13 +8,13 @@ export default {
     fill: 'currentcolor',
   },
   template: (variables, { tpl }) =>
-     tpl`
+    tpl`
 ${variables.imports};
 
 ${variables.interfaces};
 
-export const ${variables.componentName.slice('Svg'.length)} = (${variables.props}) => (
+export const ${variables.componentName} = (${variables.props}) => (
   ${variables.jsx}
 );
 `,
-}
+};

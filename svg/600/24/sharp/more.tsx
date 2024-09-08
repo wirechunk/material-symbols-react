@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgMore = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M313.22-140.78 60.78-480l252.44-339.22h586v678.44h-586ZM192.44-480l173.21 233.78h428.13v-467.56H365.65L192.44-480Zm300.95 0ZM347-433.22h93.57v-93.56H347v93.56Zm145.65-.56 94.13.56.57-94.13-94.13-.56-.57 94.13Zm146.22.56h93.57v-93.56h-93.57v93.56Z" />
+  </svg>
+);
