@@ -8,6 +8,6 @@ export const SvgKeyboardAltFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M48-144v-672h864v672H48Zm288-168h288v-48H336v48ZM228-432h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72ZM228-576h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72Z" />
+    <path d="M72-192v-576h816v576H72Zm264-120h288v-72H336v72ZM228-432h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72ZM228-552h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72Zm144 0h72v-72h-72v72Z" />
   </svg>
 );

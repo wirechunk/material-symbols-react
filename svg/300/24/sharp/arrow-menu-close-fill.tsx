@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgArrowMenuCloseFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M432.31-307.31v-345L262.69-480l169.62 172.69ZM520-140h60v-680h-60v680Z" />
+  </svg>
+);

@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgHostFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M74.02-114.02v-732.2h369.57v732.2H74.02Zm442.39 0v-732.2h369.81v732.2H516.41ZM200.48-356.24h116.65v-64.78H200.48v64.78Zm442.39 0h116.89v-64.78H642.87v64.78ZM200.48-485.02h116.65v-64.55H200.48v64.55Zm442.39 0h116.89v-64.55H642.87v64.55ZM200.48-613.57h116.65v-64.78H200.48v64.78Zm442.39 0h116.89v-64.78H642.87v64.78Z" />
+  </svg>
+);
