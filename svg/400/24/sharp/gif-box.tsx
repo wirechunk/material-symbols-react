@@ -8,6 +8,6 @@ export const SvgGifBox = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M120-120v-720h720v720H120Zm80-80h560v-560H200v560Zm0 0v-560 560Zm100-200h120v-80h-40v40h-40v-80h80v-40H300v160Zm160 0h40v-160h-40v160Zm80 0h40v-60h60v-40h-60v-20h80v-40H540v160Z" />
+    <path d="M120-120v-720h720v720H120Zm80-80h560v-560H200v560Zm240-160h60v-240h-60v240Zm-200 0h160v-120h-60v60h-40v-120h100v-60H240v240Zm320 0h60v-80h80v-60h-80v-40h120v-60H560v240ZM200-200v-560 560Z" />
   </svg>
 );

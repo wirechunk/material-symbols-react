@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgTileMediumFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M160-240v-186.23h266.23V-240H160Zm373.54 0v-186.23H800V-240H533.54ZM160-533.77V-720h640v186.23H160Z" />
+  </svg>
+);

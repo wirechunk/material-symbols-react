@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgTileLargeFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M105.87-105.87v-255.52H428v255.52H105.87Zm427.13 0v-255.52h321.7v255.52H533ZM105.87-466.39V-854.7H854.7v388.31H105.87Z" />
+  </svg>
+);
