@@ -1,6 +1,6 @@
 {
   "name": "@wirechunk/material-symbols-react-300",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The latest Material Symbols with weight 300 as React components rendering SVGs",
   "files": [
     "**/*.tsx"
