@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgModelingFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M696-168 552-312l144-144 51 51-57 57h150v72H690l57 57-51 51Zm-576-24v-240h360v240H120Zm144-312-51-51 57-57H120v-72h150l-57-57 51-51 144 144-144 144Zm216-24v-240h360v240H480Z" />
+  </svg>
+);

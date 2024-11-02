@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgPinboard = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m264-96-36-36v-156H96v-72l48-72v-120H96v-72h336v72h-48v120l48 72v72H300v156l-36 36Zm216-96v-72h312v-432H96v-72h768v576H480ZM182-360h164l-34-50v-142h-96v142l-34 50Zm82 0Z" />
+  </svg>
+);
