@@ -70,3 +70,4 @@ jobs:
           fi
           git push
           git push origin tag v$VERSION
+          gh workflow run publish.yml --ref v$VERSION
