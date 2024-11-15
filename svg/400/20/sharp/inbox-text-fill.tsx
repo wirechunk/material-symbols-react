@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgInboxTextFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M288-492h384v-72H288v72Zm0-120h384v-72H288v72ZM144-144v-672h672v672H144Zm336-192q40 0 68-28t28-68h168v-312H216v312h168q0 40 28 68t68 28Z" />
+  </svg>
+);

@@ -3,7 +3,7 @@
   "description": "The latest Material Symbols as React components rendering SVGs",
   "private": true,
   "type": "module",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "scripts": {
     "init-pkgs": "node --experimental-transform-types ./scripts/init.ts",
     "check": "npm run download:metadata -- --status --dry-run",
