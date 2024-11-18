@@ -71,3 +71,5 @@ jobs:
           git push
           git push origin tag v$VERSION
           gh workflow run publish.yml --ref v$VERSION
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
