@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgFitPageWidth = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M356.15-369.23v-221.54L245.39-480l110.76 110.77ZM714.61-480 603.85-590.77v221.54L714.61-480ZM100-180v-600h760v600H100Zm700-540H160v480h640v-480Zm-640 0v480-480Z" />
+  </svg>
+);

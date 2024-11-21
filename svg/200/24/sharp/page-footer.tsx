@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgPageFooter = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M160-160v-40h640v40H160Zm0-135.38V-800h640v504.62H160Zm40-40h560V-760H200v424.62Zm0 0V-760v424.62Z" />
+  </svg>
+);

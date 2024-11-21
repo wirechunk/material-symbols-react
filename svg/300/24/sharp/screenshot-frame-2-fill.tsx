@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgScreenshotFrame2Fill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M800-560v-120H680v-60h180v180h-60Zm-700 0v-180h180v60H160v120h-60Zm580 340v-60h120v-120h60v180H680Zm-580 0v-180h60v120h120v60H100Z" />
+  </svg>
+);

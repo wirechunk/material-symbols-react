@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgPageHeaderFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M105.87-775.48v-79.22H854.7v79.22H105.87Zm0 669.61v-569.61H854.7v569.61H105.87Z" />
+  </svg>
+);

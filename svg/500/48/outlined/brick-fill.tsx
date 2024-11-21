@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgBrickFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M74.02-154.02v-481.41H192v-170.79h237.91v170.79h100.42v-170.79h237.91v170.79h117.98v481.41H74.02Z" />
+  </svg>
+);
