@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgStylusPencil = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M279.62-350.62 456.77-800h45.69l177.92 449.38H279.62Zm44.69-30.76h310.61L480-773.08l-155.69 391.7Zm0 0h310.61-310.61ZM200-160l32.85-86h494.3L760-160H200Z" />
+  </svg>
+);

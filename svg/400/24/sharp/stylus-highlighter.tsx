@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgStylusHighlighter = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M280-320v-520h99l301 149v371H280Zm80-80h240v-241L360-760v360ZM160-120l40-120h560l40 120H160Zm200-280h240-240Z" />
+  </svg>
+);

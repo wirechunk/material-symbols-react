@@ -8,6 +8,6 @@ export const SvgMagnifyDockedFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M80-160v-640h800v640H80Zm60-149h680v-431H140v431Zm430-96h60v-90h90v-60h-90v-90h-60v90h-90v60h90v90Z" />
+    <path d="M80-160v-640h800v640H80Zm60-160h680v-420H140v420Zm430-90h60v-90h90v-60h-90v-90h-60v90h-90v60h90v90Z" />
   </svg>
 );
