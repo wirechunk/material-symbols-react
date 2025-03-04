@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgSwitchAccess3 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M432-96v-168h72v96h288v-624H504v96h-72v-168h432v168h48v191.6h-48V-96H432Zm246-384ZM96-240v-144h144v144H96Zm336-96-51-51 57-57H96v-72h342l-57-57 51-51 144 144-144 144ZM96-576v-144h144v144H96Z" />
+  </svg>
+);
