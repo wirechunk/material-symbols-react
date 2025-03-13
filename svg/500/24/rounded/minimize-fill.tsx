@@ -8,6 +8,6 @@ export const SvgMinimizeFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M280-111.87q-19.15 0-32.33-13.17-13.17-13.18-13.17-32.33t13.17-32.33q13.18-13.17 32.33-13.17h400q19.15 0 32.33 13.17 13.17 13.18 13.17 32.33t-13.17 32.33q-13.18 13.17-32.33 13.17H280Z" />
+    <path d="M234.5-111.87v-91h491v91h-491Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgChatBubbleFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M240-240 131-131q-14 14-32.5 6.5T80-152v-668q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H240Z" />
+    <path d="M80-80v-740q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H240L80-80Z" />
   </svg>
 );

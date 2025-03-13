@@ -8,6 +8,6 @@ export const SvgNavigationFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M480-264 257-163q-11 5-21.5 3T217-170q-8-8-10.5-18t2.5-21l238-575q5-11 13.5-16.5T480-806q11 0 19.5 5.5T513-784l238 575q5 11 2.5 21T743-170q-8 8-18.5 10t-21.5-3L480-264Z" />
+    <path d="m216-144-24-24 288-696 288 696-24 24-264-120-264 120Z" />
   </svg>
 );

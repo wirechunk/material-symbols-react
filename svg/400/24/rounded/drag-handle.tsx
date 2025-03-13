@@ -8,6 +8,6 @@ export const SvgDragHandle = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M200-360q-17 0-28.5-11.5T160-400q0-17 11.5-28.5T200-440h560q17 0 28.5 11.5T800-400q0 17-11.5 28.5T760-360H200Zm0-160q-17 0-28.5-11.5T160-560q0-17 11.5-28.5T200-600h560q17 0 28.5 11.5T800-560q0 17-11.5 28.5T760-520H200Z" />
+    <path d="M160-360v-80h640v80H160Zm0-160v-80h640v80H160Z" />
   </svg>
 );

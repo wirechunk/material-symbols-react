@@ -8,6 +8,6 @@ export const SvgTimer5ShutterFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M528-240H384q-20 0-34-14t-14-34q0-20 14-34t34-14h144v-96H384q-20 0-34-14t-14-34v-192q0-20 14-34t34-14h192q20 0 34 14t14 34q0 20-14 34t-34 14H432v96h120q30 0 51 21t21 51v120q0 40-28 68t-68 28Z" />
+    <path d="M336-240v-96h192v-96H336v-288h288v96H432v96h120q30 0 51 21t21 51v120q0 40-28 68t-68 28H336Z" />
   </svg>
 );

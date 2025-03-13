@@ -8,6 +8,6 @@ export const SvgRemove = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M240-440q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h480q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H240Z" />
+    <path d="M200-440v-80h560v80H200Z" />
   </svg>
 );

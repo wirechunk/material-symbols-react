@@ -8,6 +8,6 @@ export const SvgBrandingWatermarkFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M435-274h301q13 0 21.5-8.5T766-304v-198q0-13-8.5-21.5T736-532H435q-13 0-21.5 8.5T405-502v198q0 13 8.5 21.5T435-274ZM140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Z" />
+    <path d="M405-274h361v-258H405v258ZM140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Z" />
   </svg>
 );

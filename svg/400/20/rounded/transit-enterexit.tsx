@@ -8,6 +8,6 @@ export const SvgTransitEnterexit = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M411-360h177q15 0 25.5 10.5T624-324q0 15-10.5 25.5T588-288H323.96q-14.96 0-25.46-10.35T288-324v-264q0-15 10.5-25.5T324-624q15 0 25.5 10.5T360-588v177l236-236q11-11 25.5-11t25.5 11q11 11 11 25.5T647-596L411-360Z" />
+    <path d="M288-288v-336h72v213l261-261 51 51-261 261h213v72H288Z" />
   </svg>
 );

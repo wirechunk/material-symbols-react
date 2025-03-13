@@ -8,6 +8,6 @@ export const SvgShiftFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M336-180v-242H217q-23 0-33-20t4-38l263-346q11.28-14 29.14-14T509-826l263 346q14 18 4 38t-33 20H624v242.29q0 14.71-10.34 25.21T588.04-144H372.28q-15.28 0-25.78-10.35Q336-164.7 336-180Z" />
+    <path d="M336-144v-278H144l336-442 336 442H624v278H336Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgSignalCellularNull = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M152-80q-20 0-27.5-18.5T131-131l698-698q14-14 32.5-6.5T880-808v683q0 19-13 32t-32 13H152Zm72-60h596v-596L224-140Z" />
+    <path d="m80-80 800-800v800H80Zm144-60h596v-596L224-140Z" />
   </svg>
 );

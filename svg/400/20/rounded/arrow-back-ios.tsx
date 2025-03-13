@@ -8,6 +8,6 @@ export const SvgArrowBackIos = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="m136-480 282 282q14 14 14 34t-14 34q-14 14-34 14t-34-14L51-429q-11-11-16-24t-5-27q0-14 5-27t16-24l299-299q14-14 34-14t34 14q14 14 14 34t-14 34L136-480Z" />
+    <path d="M384-96 0-480l384-384 68 68-316 316 316 316-68 68Z" />
   </svg>
 );

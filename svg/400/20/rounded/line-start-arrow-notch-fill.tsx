@@ -8,6 +8,6 @@ export const SvgLineStartArrowNotchFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="m358-444 84 140q8 12.44-2.25 22.22T417-280L145-449q-17-10.93-17-30.96Q128-500 145-511l272-169q12.5-8 22.75 1.78T442-656l-84 140h470q15.3 0 25.65 10.29Q864-495.42 864-480.21t-10.35 25.71Q843.3-444 828-444H358Z" />
+    <path d="M480-240 96-480l384-240-122 204h506v72H358l122 204Z" />
   </svg>
 );

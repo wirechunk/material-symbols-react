@@ -8,6 +8,6 @@ export const SvgCheckSmall = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="m400-403 244-244q11-11 25.5-11t25.5 11q11 11 11 25.5T695-596L425-326q-11 11-25.5 11T374-326L265-435q-11-11-11-25.5t11-25.5q11-11 25.5-11t25.5 11l84 83Z" />
+    <path d="M400-301 240-461l51-51 109 109 269-269 51 51-320 320Z" />
   </svg>
 );

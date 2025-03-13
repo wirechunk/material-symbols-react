@@ -8,6 +8,6 @@ export const SvgLineStartArrowFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M459-239 133-446q-19-12-19-34t19-34l326-207q20-13 40.5-1.5T520-687v167h320q17 0 28.5 11.5T880-480q0 17-11.5 28.5T840-440H520v167q0 24-20.5 35.5T459-239Z" />
+    <path d="M520-200 80-480l440-280v240h360v80H520v240Z" />
   </svg>
 );

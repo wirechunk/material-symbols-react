@@ -8,6 +8,6 @@ export const SvgSignalWifi4BarFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M429-195 56-568q-11-11-16-24t-5-27q0-16 6.5-30T61-674q85-70 197-106t222-36q110 0 222 36t197 106q13 11 19.5 25t6.5 30q0 14-5 27t-16 24L531-195q-11 11-24 16t-27 5q-14 0-27-5t-24-16Z" />
+    <path d="M480-144 0-624q94-90 217-141t263-51q140 0 263 51t217 141L480-144Z" />
   </svg>
 );

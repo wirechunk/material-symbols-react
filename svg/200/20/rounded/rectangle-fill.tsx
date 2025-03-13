@@ -8,6 +8,6 @@ export const SvgRectangleFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M192.62-232q-23.36 0-39.99-16.64Q136-265.29 136-288.66v-383.01q0-23.37 16.63-39.85T192.62-728h574.76q23.36 0 39.99 16.64Q824-694.71 824-671.34v383.01q0 23.37-16.63 39.85T767.38-232H192.62Z" />
+    <path d="M136-232v-496h688v496H136Z" />
   </svg>
 );

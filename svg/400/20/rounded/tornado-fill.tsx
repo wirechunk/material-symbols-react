@@ -8,6 +8,6 @@ export const SvgTornadoFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="m113-707 47 78h639l47-78q22-36 1-72.5T784-816H175q-42 0-63 36.5t1 72.5Zm90 150 72 120h409l72-120H203Zm116 199 88 152q26 41 73 41t73-41l88-152H319Z" />
+    <path d="M48-816h863L799-629H160L48-816Zm155 259h553l-72 120H275l-72-120Zm116 192h322L480-96 319-365Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgLineEndDiamondFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M599-265 420-444H132q-15.3 0-25.65-10.29Q96-464.58 96-479.79t10.35-25.71Q116.7-516 132-516h288l179-179q10.64-11 24.82-11T649-695l190 190q11 10.64 11 24.82T839-455L649-265q-10.64 11-24.82 11T599-265Z" />
+    <path d="M624-240 420-444H96v-72h324l204-204 240 240-240 240Z" />
   </svg>
 );

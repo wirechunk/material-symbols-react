@@ -8,6 +8,6 @@ export const SvgSignalCellularAlt1Bar = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M300.31-232q-8.46 0-14.39-5.92-5.92-5.93-5.92-14.39v-119.38q0-8.46 5.92-14.39 5.93-5.92 14.39-5.92t14.38 5.92q5.93 5.93 5.93 14.39v119.38q0 8.46-5.93 14.39-5.92 5.92-14.38 5.92Z" />
+    <path d="M280-232v-160h40.62v160H280Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgKeyboardControlKeyFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M480-642 316-478q-11 11-25 10.5T266-479q-11-11-11-25.5t11-25.5l189-189q11-11 25-11t25 11l190 190q11 11 11 25t-11 25q-11 11-25.5 11T644-479L480-642Z" />
+    <path d="m291-453-51-51 240-240 240 240-51 51-189-189-189 189Z" />
   </svg>
 );

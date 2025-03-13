@@ -8,6 +8,6 @@ export const SvgFullscreenPortraitFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M310-200h340q13 0 21.5-8.5T680-230v-500q0-13-8.5-21.5T650-760H310q-13 0-21.5 8.5T280-730v500q0 13 8.5 21.5T310-200Zm490 60q0 24-18 42t-42 18H220q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h520q24 0 42 18t18 42v680Z" />
+    <path d="M280-200h400v-560H280v560Zm520 60q0 24-18 42t-42 18H220q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h520q24 0 42 18t18 42v680Z" />
   </svg>
 );

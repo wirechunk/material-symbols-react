@@ -8,6 +8,6 @@ export const SvgArrowSelectorToolFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M581-116q-18 8-37 1t-27-25L399-391l-95 119q-16 20-40 11.5T240-295v-493q0-23 20.5-32.5T299-816l391 320q20 16 11.5 40T667-432H486l118 252q8 18 1.5 37T581-116Z" />
+    <path d="M537-96 399-391 240-192v-672l528 432H486l138 295-87 41Z" />
   </svg>
 );
