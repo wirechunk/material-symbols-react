@@ -8,6 +8,6 @@ export const SvgMaximizeFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M180-760v-60h600v60H180Z" />
+    <path d="M210-760q-12.75 0-21.37-8.63-8.63-8.63-8.63-21.38 0-12.76 8.63-21.37Q197.25-820 210-820h540q12.75 0 21.37 8.63 8.63 8.63 8.63 21.38 0 12.76-8.63 21.37Q762.75-760 750-760H210Z" />
   </svg>
 );

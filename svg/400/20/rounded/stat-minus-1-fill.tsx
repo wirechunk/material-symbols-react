@@ -8,6 +8,6 @@ export const SvgStatMinus1Fill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z" />
+    <path d="M480-348q-7 0-13.5-2.5T455-358L265-548q-11-11-10.5-25.5T266-599q11-11 25.5-11t25.5 11l163 164 164-164q11-11 25.5-10.5T695-598q11 11 11 25.5T695-547L505-358q-5 5-11.5 7.5T480-348Z" />
   </svg>
 );

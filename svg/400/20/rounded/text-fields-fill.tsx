@@ -8,6 +8,6 @@ export const SvgTextFieldsFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M288-192v-480H96v-96h480v96H384v480h-96Zm360 0v-288H528v-96h336v96H744v288h-96Z" />
+    <path d="M336-192q-20 0-34-14t-14-34v-432H144q-20 0-34-14t-14-34q0-20 14-34t34-14h384q20 0 34 14t14 34q0 20-14 34t-34 14H384v432q0 20-14 34t-34 14Zm360 0q-20 0-34-14t-14-34v-240h-72q-20 0-34-14t-14-34q0-20 14-34t34-14h240q20 0 34 14t14 34q0 20-14 34t-34 14h-72v240q0 20-14 34t-34 14Z" />
   </svg>
 );

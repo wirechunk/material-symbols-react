@@ -8,6 +8,6 @@ export const SvgHorizontalRuleFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M212-454v-52h536v52H212Z" />
+    <path d="M238.29-454q-11.04 0-18.66-7.42-7.63-7.42-7.63-18.38 0-10.97 7.47-18.58 7.47-7.62 18.51-7.62h483.73q11.04 0 18.66 7.42 7.63 7.42 7.63 18.38 0 10.97-7.47 18.58-7.47 7.62-18.51 7.62H238.29Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgPictureInPictureAltFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M446-265h335v-257H446v257ZM140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q25 0 42.5 18t17.5 42v520q0 24-17.5 42T820-160H140Z" />
+    <path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm336-105h275q13 0 21.5-8.5T781-295v-197q0-13-8.5-21.5T751-522H476q-13 0-21.5 8.5T446-492v197q0 13 8.5 21.5T476-265Zm138-129Z" />
   </svg>
 );

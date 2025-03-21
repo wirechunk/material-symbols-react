@@ -8,6 +8,6 @@ export const SvgSouthWestFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M216-216v-360h72v237l429-429 51 51-429 429h237v72H216Z" />
+    <path d="M242-200q-17 0-29.5-12.5T200-242v-316q0-17 12.5-29.5T242-600q17 0 29.5 12.5T284-558v214l426-426q13-13 30-13t30 13q13 13 13 30t-13 30L344-284h214q17 0 29.5 12.5T600-242q0 17-12.5 29.5T558-200H242Z" />
   </svg>
 );

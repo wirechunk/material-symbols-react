@@ -10,6 +10,6 @@ export const SvgSignalCellularAlt1BarFill = (
     fill="currentcolor"
     {...props}
   >
-    <path d="M240-192v-240h96v240h-96Z" />
+    <path d="M288-192q-20 0-34-14t-14-34v-144q0-20 14-34t34-14q20 0 34 14t14 34v144q0 20-14 34t-34 14Z" />
   </svg>
 );

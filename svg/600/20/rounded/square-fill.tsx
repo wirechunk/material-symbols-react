@@ -8,6 +8,6 @@ export const SvgSquareFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M124.78-124.78v-710.44h710.44v710.44H124.78Z" />
+    <path d="M222.78-124.78q-41 0-69.5-28.5t-28.5-69.5v-514.44q0-41 28.5-69.5t69.5-28.5h514.44q41 0 69.5 28.5t28.5 69.5v514.44q0 41-28.5 69.5t-69.5 28.5H222.78Z" />
   </svg>
 );

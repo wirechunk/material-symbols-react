@@ -8,6 +8,6 @@ export const SvgComputerFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M140-240q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h680q24 0 42 18t18 42v480q0 24-18 42t-42 18H140ZM40-120v-60h880v60H40Z" />
+    <path d="M70-120q-13 0-21.5-8.5T40-150q0-13 8.5-21.5T70-180h820q13 0 21.5 8.5T920-150q0 13-8.5 21.5T890-120H70Zm70-120q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h680q24 0 42 18t18 42v480q0 24-18 42t-42 18H140Z" />
   </svg>
 );

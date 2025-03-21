@@ -8,6 +8,6 @@ export const SvgPositionBottomLeftFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M230-287h360v-90H230v90Zm-50 167q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Z" />
+    <path d="M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm95-167h270q19 0 32-13t13-32q0-19-13-32t-32-13H275q-19 0-32 13t-13 32q0 19 13 32t32 13Z" />
   </svg>
 );

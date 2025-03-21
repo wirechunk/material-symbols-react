@@ -8,6 +8,6 @@ export const SvgTabFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm384-407h296v-173H524v173Z" />
+    <path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm414-407h266v-173H524v143q0 13 8.5 21.5T554-567Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgFormatSizeFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M576-192v-480H384v-96h480v96H672v480h-96Zm-360 0v-288H96v-96h336v96H312v288h-96Z" />
+    <path d="M576-672H432q-20 0-34-14t-14-34q0-20 14-34t34-14h384q20 0 34 14t14 34q0 20-14 34t-34 14H672v432q0 20-14 34t-34 14q-20 0-34-14t-14-34v-432ZM216-480h-72q-20 0-34-14t-14-34q0-20 14-34t34-14h240q20 0 34 14t14 34q0 20-14 34t-34 14h-72v240q0 20-14 34t-34 14q-20 0-34-14t-14-34v-240Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgFeaturedVideoFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M194-408h361v-278H194v278Zm-54 248q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Z" />
+    <path d="M224-408h301q13 0 21.5-8.5T555-438v-218q0-13-8.5-21.5T525-686H224q-13 0-21.5 8.5T194-656v218q0 13 8.5 21.5T224-408Zm-84 248q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgChangeHistory = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="m96-192 384-576 384 576H96Zm134-72h500L480-638 230-264Zm250-187Z" />
+    <path d="M163-192q-22 0-32-19t2-37l317-475q11-16 30-16t30 16l317 475q12 18 2 37t-32 19H163Zm67-72h500L480-638 230-264Zm250-187Z" />
   </svg>
 );

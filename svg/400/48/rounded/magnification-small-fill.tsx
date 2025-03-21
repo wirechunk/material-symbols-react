@@ -8,6 +8,6 @@ export const SvgMagnificationSmallFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M194-528h161v-158H194v158Zm-54 368q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Z" />
+    <path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm135-368q33 0 56-23t23-56q0-33-23-56t-56-23q-33 0-56 23t-23 56q0 33 23 56t56 23Z" />
   </svg>
 );
