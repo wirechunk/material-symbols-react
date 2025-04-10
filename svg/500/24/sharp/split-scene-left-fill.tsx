@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgSplitSceneLeftFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={24}
+    viewBox="0 -960 960 960"
+    width={24}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M605.5-151.87v-656.26h282.63v656.26H605.5Zm-171 80v-80H71.87v-656.26H434.5v-80h91v816.26h-91Z" />
+  </svg>
+);

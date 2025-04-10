@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgBatteryAndroidPlus = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M430-370h52v-84h84v-52h-84v-84h-52v84h-84v52h84v84Zm-262 58h586.77v-336H168v336Zm-52 52v-440h690.77v134H868v172h-61.23v134H116Zm52-52v-336 336Z" />
+  </svg>
+);
