@@ -8,6 +8,6 @@ export const SvgChargingStation = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M461-288v-154h-77l115-230v154h77L461-288ZM192-48v-864h576v864H192Zm72-120v48h432v-48H264Zm0-72h432v-480H264v480Zm0-552h432v-48H264v48Zm0 0v-48 48Zm0 624v48-48Z" />
+    <path d="m461-288 115-230h-77v-154L384-442h77v154ZM216-48v-864h528v216h48v192h-48v456H216Zm72-72h384v-720H288v720Zm0 0v-720 720Z" />
   </svg>
 );

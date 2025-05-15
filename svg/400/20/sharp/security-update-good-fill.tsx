@@ -8,6 +8,6 @@ export const SvgSecurityUpdateGoodFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M446-370 327-489l51-51 68 69 136-136 51 51-187 186ZM192-48v-864h576v864H192Zm72-192h432v-480H264v480Z" />
+    <path d="m446-370 187-186-51-51-136 136-68-69-51 51 119 119ZM216-48v-864h528v216h48v192h-48v456H216Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgScreenLockLandscapeFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M40-200v-560h880v560H40Zm200-80h480v-400H240v400Zm120-40v-200h40v-40q0-33 23.5-56.5T480-640q33 0 56.5 23.5T560-560v40h40v200H360Zm80-200h80v-40q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560v40Z" />
+    <path d="M360-320h240v-200h-40v-40q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560v40h-40v200Zm80-200v-40q0-17 11.5-28.5T480-600q17 0 28.5 11.5T520-560v40h-80ZM40-200v-560h204v-40h192v40h484v560H40Z" />
   </svg>
 );

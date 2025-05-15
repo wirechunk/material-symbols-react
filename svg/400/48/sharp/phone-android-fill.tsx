@@ -8,6 +8,6 @@ export const SvgPhoneAndroidFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M398-125h164v-40H398v40ZM200-40v-880h560v880H200Zm60-210h440v-520H260v520Z" />
+    <path d="M479-180q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9ZM200-40v-880h558v210h42v173h-42v497H200Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgScreenshotFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M508.62-285.69v-35.69h96v-96h35.69v131.69H508.62ZM319.69-542.62v-131.69h131.69v35.69h-96v96h-35.69ZM212-68v-824h536v824H212Zm52-162h432v-500H264v500Z" />
+    <path d="M610.15-336h-52v100.62H457.54v51.99h152.61V-336ZM351.39-624h51.99v-100.62H504v-51.99H351.39V-624ZM236-68v-824h489.54v210.62H772v169.69h-46.46V-68H236Z" />
   </svg>
 );

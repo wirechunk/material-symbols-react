@@ -8,6 +8,6 @@ export const SvgVibrationFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M0-360v-240h72v240H0Zm120 72v-384h72v384h-72Zm768-72v-240h72v240h-72Zm-120 72v-384h72v384h-72ZM240-144v-672h480v672H240Z" />
+    <path d="M24-360v-240h72v240H24Zm120 72v-384h72v384h-72Zm720-72v-240h72v240h-72Zm-120 72v-384h72v384h-72ZM264-144v-672h432v672H264Zm215.79-480q15.21 0 25.71-10.29t10.5-25.5q0-15.21-10.29-25.71t-25.5-10.5q-15.21 0-25.71 10.29t-10.5 25.5q0 15.21 10.29 25.71t25.5 10.5Z" />
   </svg>
 );

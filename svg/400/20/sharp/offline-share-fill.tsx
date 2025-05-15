@@ -8,6 +8,6 @@ export const SvgOfflineShareFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M192-48v-720h72v648h408v72H192Zm144-144v-720h480v720H336Zm72-192h336v-336H408v336Zm48-48v-144h148l-44-44 34-34 102 102-101 102-34-34 43-44H504v96h-48Z" />
+    <path d="M192-48v-720h72v648h408v72H192Zm168-168v-672h432v145h36v142h-36v385H360Zm96-216h48v-96h100l-43 44 34 34 101-102-102-102-34 34 44 44H456v144Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgStreamAppsFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M560-280v-360h360v280H640l-80 80ZM200-40v-880h560v206h-60v-56H260v580h440v-56h60v206H200Z" />
+    <path d="M200-40v-880h560v300H460v520h45l120-120h135v180H200Zm320-160v-360h360v280H600l-80 80Zm-41-520q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Z" />
   </svg>
 );

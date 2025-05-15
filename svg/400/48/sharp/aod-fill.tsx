@@ -8,6 +8,6 @@ export const SvgAodFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M357-380v-50h246v50H357Zm-41-130v-50h328v50H316ZM200-40v-880h560v880H200Zm60-150h440v-580H260v580Z" />
+    <path d="M320-499h318v-60H320v60Zm40 110h238v-60H360v60ZM200-40v-880h558v210h42v173h-42v497H200Z" />
   </svg>
 );

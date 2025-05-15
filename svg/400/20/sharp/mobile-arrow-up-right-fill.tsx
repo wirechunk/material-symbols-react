@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgMobileArrowUpRightFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m411-360 117-117v93h72v-216H384v72h93L360-411l51 51ZM216-48v-864h528v216h48v192h-48v456H216Z" />
+  </svg>
+);

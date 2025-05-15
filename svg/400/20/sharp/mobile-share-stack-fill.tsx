@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgMobileShareStackFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M192-48v-720h72v648h408v72H192Zm168-168v-672h432v145h36v142h-36v385H360Zm96-216h48v-96h100l-43 44 34 34 101-102-102-102-34 34 44 44H456v144Z" />
+  </svg>
+);

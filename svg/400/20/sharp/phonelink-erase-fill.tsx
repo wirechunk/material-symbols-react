@@ -8,6 +8,6 @@ export const SvgPhonelinkEraseFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M192-48v-864h576v240h-72v-48H264v480h432v-48h72v240H192Zm436-271-51-51 111-110-111-110 51-51 111 110 110-110 51 51-110 110 110 110-51 51-110-110-111 110Z" />
+    <path d="m398-348 82-81 81 81 51-50-82-82 82-81-51-51-81 82-82-82-50 51 81 81-81 82 50 50ZM216-48v-864h528v216h48v192h-48v456H216Z" />
   </svg>
 );

@@ -8,6 +8,6 @@ export const SvgSystemUpdateFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M200-40v-880h560v880H200Zm60-150h440v-580H260v580Zm220-128L325-473l43-43 82 82v-194h60v194l82-82 43 43-155 155Z" />
+    <path d="m480-318 155-155-43-43-82 82v-194h-60v194l-82-82-43 43 155 155ZM200-40v-880h558v210h42v173h-42v497H200Z" />
   </svg>
 );

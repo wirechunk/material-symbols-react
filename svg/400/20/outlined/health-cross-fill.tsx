@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgHealthCrossFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M336-144v-192H144v-288h192v-192h288v192h192v288H624v192H336Z" />
+  </svg>
+);

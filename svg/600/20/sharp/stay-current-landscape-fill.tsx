@@ -8,6 +8,6 @@ export const SvgStayCurrentLandscapeFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M30.48-174.48v-611.04h899.04v611.04H30.48Zm218-98h463.04v-415.04H248.48v415.04Z" />
+    <path d="M28.78-197.35v-565.3h225.61v-48.57h206.7v48.57h470.13v565.3H28.78Zm185.75-242.13q17.13 0 28.93-11.59t11.8-28.72q0-17.13-11.59-28.93t-28.72-11.8q-17.13 0-28.93 11.59t-11.8 28.72q0 17.13 11.59 28.93t28.72 11.8Z" />
   </svg>
 );

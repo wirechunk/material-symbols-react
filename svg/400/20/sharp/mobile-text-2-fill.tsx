@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgMobileText2Fill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={20}
+    viewBox="0 -960 960 960"
+    width={20}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="M336-480h288v-72H336v72Zm24 120h240v-72H360v72ZM216-48v-864h528v216h48v192h-48v456H216Z" />
+  </svg>
+);

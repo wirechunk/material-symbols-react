@@ -8,6 +8,6 @@ export const SvgSmartphoneFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M220-60v-840h520v840H220Zm60-170h400v-500H280v500Z" />
+    <path d="M480.8-713.85q15.05 0 25.2-10.18 10.15-10.18 10.15-25.23t-10.18-25.2q-10.18-10.15-25.23-10.15t-25.2 10.18q-10.15 10.18-10.15 25.23t10.18 25.2q10.18 10.15 25.23 10.15ZM220-60v-840h521.54v198.62H780v169.69h-38.46V-60H220Z" />
   </svg>
 );

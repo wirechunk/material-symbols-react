@@ -8,6 +8,6 @@ export const SvgAdUnits = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M356-640v-32h248v32H356ZM232-88v-784h496v784H232Zm32-100v68h432v-68H264Zm0-32h432v-520H264v520Zm0-552h432v-68H264v68Zm0 0v-68 68Zm0 584v68-68Z" />
+    <path d="M351.38-496.15h260.31v-32H351.38v32ZM256-88v-784h451.08v205.23H752v147.39h-44.92V-88H256Zm32-32h387.08v-720H288v720Zm0 0v-720 720Z" />
   </svg>
 );

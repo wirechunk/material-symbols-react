@@ -8,6 +8,6 @@ export const SvgSendToMobile = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="m686-328-42-42 82-81H480v-60h246l-82-81 42-42 153 153-153 153ZM200-40v-880h560v206h-60v-56H260v580h440v-56h60v206H200Zm60-90v30h440v-30H260Zm0-700h440v-30H260v30Zm0 0v-30 30Zm0 700v30-30Z" />
+    <path d="M310-510v60h227l-74 74 42 42 146-146-146-146-42 42 74 74H310ZM200-40v-880h558v210h42v173h-42v497H200Zm60-60h438v-760H260v760Zm0 0v-760 760Z" />
   </svg>
 );

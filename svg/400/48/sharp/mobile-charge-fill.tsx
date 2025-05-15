@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+export const SvgMobileChargeFill = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height={48}
+    viewBox="0 -960 960 960"
+    width={48}
+    fill="currentcolor"
+    {...props}
+  >
+    <path d="m460-280 120-240h-80v-160L380-440h80v160ZM200-40v-880h558v210h42v173h-42v497H200Z" />
+  </svg>
+);

@@ -8,6 +8,6 @@ export const SvgAddToHomeScreenFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M212-68v-218.46h52V-230h432v-500H264v56.46h-52V-892h536v824H212Zm-65-233.85L109.85-339l223-223H202v-52h220v220h-52v-130.85l-223 223Z" />
+    <path d="M406.77-370 538-501.23v105.31h52v-194.46H395.54v51.99h105.69L369.62-407.15 406.77-370ZM236-68v-824h489.54v210.62H772v169.69h-46.46V-68H236Z" />
   </svg>
 );

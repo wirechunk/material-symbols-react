@@ -8,6 +8,6 @@ export const SvgEdgesensorLowFill = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M80-400v-280h60v280H80Zm740 119v-279h60v279h-60ZM240-80v-800h480v800H240Zm60-150h360v-500H300v500Z" />
+    <path d="M120-400v-283h60v283h-60Zm660 123v-283h60v283h-60ZM241-120v-720h479v720H241Zm238-520q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Z" />
   </svg>
 );

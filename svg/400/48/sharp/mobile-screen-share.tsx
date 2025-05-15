@@ -8,6 +8,6 @@ export const SvgMobileScreenShare = (props: SVGProps<SVGSVGElement>) => (
     fill="currentcolor"
     {...props}
   >
-    <path d="M371-361v-168h159v-66l96 96-96 96v-66h-99v108h-60ZM200-40v-880h560v880H200Zm60-90v30h440v-30H260Zm0-60h440v-580H260v580Zm0-640h440v-30H260v30Zm0 0v-30 30Zm0 700v30-30Z" />
+    <path d="M320-330h60v-120h143l-54 53 43 43 126-126-126-126-42 42 53 54H320v180ZM200-40v-880h558v210h42v173h-42v497H200Zm60-60h438v-760H260v760Zm0 0v-760 760Z" />
   </svg>
 );
