@@ -2,7 +2,7 @@ name: Auto Update
 
 on:
   schedule:
-    - cron: '23 1 * * *' # Runs at 01:23 UTC every day
+    - cron: '0 1 1 * *' # Runs once monthly
   workflow_dispatch:
     inputs:
       force:
